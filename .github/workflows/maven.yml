@@ -24,7 +24,7 @@ jobs:
         cache: maven
   
     - name: Build & push Docker image
-      uses: docker/build-push-action@v4
+      
       with:
         image: ayush124/springboot-images-new
         tags: latest
